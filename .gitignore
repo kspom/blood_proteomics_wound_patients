@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+build/
+dist/
+.venv/
+venv/
+
+# --- editors / IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- generated outputs (regeneratable from dataset/) ---
+# Uncomment if you want a clean code-only repo; leave commented to ship
+# pre-computed outputs alongside the code for reviewer convenience.
+# output/
+# figures/
+
+# --- private working notes (never push to GitHub) ---
+CHANGES_AFTER_EXCLUSION.md
+dataset/ClassLabel_original.csv
+
+# --- macOS / Windows junk ---
+._*
+.Spotlight-V100
+.Trashes
