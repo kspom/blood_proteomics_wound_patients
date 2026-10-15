@@ -1,6 +1,6 @@
 """Figure S7 -- per-patient PHS range and class summaries.
 
-For each panel, fit LDA on the 13 baseline samples and apply to all 71.
+For each panel, fit LDA on the 12 baseline samples and apply to all 68.
 Two parts per subplot:
   (top)    one row per patient, dot at mean PHS, bar from min to max
            across visits; sorted within class by mean PHS.

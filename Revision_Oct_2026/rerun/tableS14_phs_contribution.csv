@@ -1,0 +1,16 @@
+Panel,Axis,Protein,Axis coefficient,Mean intensity (across 68 samples),Product (coef * mean),Contribution (% of axis total)
+Complement-5,positive (x-axis),MINPP1,6.7,42.0,281.0,17.9%
+Complement-5,positive (x-axis),PI16,14,71.0,969.0,61.7%
+Complement-5,positive (x-axis),SELL,2.8,115.0,321.0,20.4%
+Complement-5,negative (y-axis),CFB,3.5,8158.0,28573.0,81.0%
+Complement-5,negative (y-axis),IGHV3-64,8.5,787.0,6706.0,19.0%
+Metabolic-4,positive (x-axis),ADIPOQ,1 (raw intensity),141.0,141.0,100.0%
+Metabolic-4,negative (y-axis),FGB,1.9,58420.0,110396.0,60.6%
+Metabolic-4,negative (y-axis),IGHV3-64,40,787.0,31484.0,17.3%
+Metabolic-4,negative (y-axis),IGLV2-11,71,568.0,40212.0,22.1%
+Core-3,positive (x-axis),PI16,1 (raw intensity),71.0,71.0,100.0%
+Core-3,negative (y-axis),CFB,3.3,8158.0,27123.0,83.5%
+Core-3,negative (y-axis),IGHV3-64,6.8,787.0,5375.0,16.5%
+Clinical-3,negative (y-axis),F2,15,5360.0,81724.0,25.7%
+Clinical-3,negative (y-axis),CFB,26,8158.0,210851.0,66.3%
+Clinical-3,negative (y-axis),TTR,2.1,12171.0,25468.0,8.0%

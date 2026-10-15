@@ -1,0 +1,5 @@
+Protein,Coefficient,Sign,Direction
+F2,-0.0015246,-,non-healer
+CFB,-0.0025847,-,non-healer
+TTR,-0.00020925,-,non-healer
+(intercept),+30.677,,

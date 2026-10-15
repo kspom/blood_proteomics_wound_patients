@@ -5,12 +5,12 @@ Core-3, Clinical-3) and each of the seven schemes from the glossary
 (Table S3), compute the misclassification count and rate.
 
 Schemes:
-  baseline-LOOCV       leave one of the 13 baseline samples out
+  baseline-LOOCV       leave one of the 12 baseline samples out
   baseline-LOPPO       leave one (healer, non-healer) patient pair out,
                        baseline-only subset
-  all-68-LOOCV         leave one of the 71 samples out
+  all-68-LOOCV         leave one of the 68 samples out
   all-68-LOPPO         leave one (healer, non-healer) patient pair out
-                       across all 71 samples
+                       across all 68 samples
   LOPO                 leave all visits of one patient out
   LOVO                 leave all samples of one visit out
   baseline -> follow-up  fit on visit 1 only, test on visits 2..6
@@ -68,14 +68,14 @@ def baseline_loppo(X, y, g, vis):
     return err, n
 
 
-def all71_loocv(X, y):
+def all68_loocv(X, y):
     err = 0
     for tr, te in LeaveOneOut().split(X):
         err += int((fit_predict(X[tr], y[tr], X[te]) != y[te]).sum())
     return err, len(y)
 
 
-def all71_loppo(X, y, g):
+def all68_loppo(X, y, g):
     err = 0; n = 0
     for tr, te in patient_pair_splits(X, y, g):
         if len(set(y[tr])) < 2:
@@ -139,8 +139,8 @@ def main():
         results = {
             "baseline-LOOCV":      baseline_loocv(X, y, vis),
             "baseline-LOPPO":      baseline_loppo(X, y, g, vis),
-            "all-68-LOOCV":        all71_loocv(X, y),
-            "all-68-LOPPO":        all71_loppo(X, y, g),
+            "all-68-LOOCV":        all68_loocv(X, y),
+            "all-68-LOPPO":        all68_loppo(X, y, g),
             "LOPO":                lopo(X, y, g, vis=vis, baseline_log=baseline_log),
             "LOVO":                lovo(X, y, vis),
             "baseline->follow-up": baseline_to_followup(X, y, vis),

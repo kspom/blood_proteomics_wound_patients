@@ -1,6 +1,6 @@
 """Table S7 -- LDA coefficients for the five comparison panels.
 
-For each panel, fits LDA on all 71 QC-passed samples and writes the
+For each panel, fits LDA on all 68 QC-passed samples and writes the
 per-protein coefficient and intercept in a long-format CSV. Sign
 convention: classes_ = [0, 1] with 0 = non-healer, 1 = healer.
 A positive coefficient means higher intensity raises PHS toward healer.

@@ -1,0 +1,3 @@
+Rank,Size,Proteins,Proteins with PHS sign,Train error,"CV error (LOPPO, /528)"
+44,6,CFHR3 | F2 | INHBC | MSN | PTGDS | VASN,CFHR3(-) | F2(-) | INHBC(-) | MSN(+) | PTGDS(+) | VASN(+),1,45
+45,3,CFHR3 | KIAA1958 | PTGDS,CFHR3(-) | KIAA1958(+) | PTGDS(+),2,50

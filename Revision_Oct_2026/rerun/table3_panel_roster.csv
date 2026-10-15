@@ -1,0 +1,5 @@
+panel,proteins,size,selection_criterion
+Complement-5,"CFB, IGHV3-64, MINPP1, PI16, SELL",5,"one of three zero-error all-68-LOPPO panels; shares the {CFB, IGHV3-64, MINPP1, PI16} backbone with the leading panel and adds L-selectin (SELL, leukocyte adhesion); also zero-error under all-68-LOOCV"
+Metabolic-4,"ADIPOQ, FGB, IGHV3-64, IGLV2-11",4,"the third zero-error all-68-LOPPO panel; the only one of the three that does not contain CFB, MINPP1 or PI16; represents an alternative adipokine/coagulation axis"
+Core-3,"CFB, IGHV3-64, PI16",3,"CFB, IGHV3-64 and PI16 recur across the top-10 all-68-LOPPO panels (CFB in 9/10; IGHV3-64 and PI16 in 8/10 each; all three jointly in 7/10)"
+Clinical-3,"F2, CFB, TTR",3,"clinician-curated, routine-assay proteins"

@@ -2,7 +2,7 @@
 
 From the unique LOPPO panels (Table S5), filters to panels with
 core3_overlap == 1 (exactly one of the three Core-3 proteins present)
-and reports the top 10 by CV error. For each panel, fits LDA on all 71
+and reports the top 10 by CV error. For each panel, fits LDA on all 68
 samples and reports the per-protein PHS sign.
 """
 

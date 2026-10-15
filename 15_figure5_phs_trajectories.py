@@ -1,6 +1,6 @@
 """Figure 5 -- per-patient PHS trajectories for the five comparison panels.
 
-For each panel, fit LDA on all 71 QC-passed samples, score every sample
+For each panel, fit LDA on all 68 QC-passed samples, score every sample
 with f(x) = w . x + b, plot one line per patient against week of sample
 collection, coloured by class. Layout is 2 x 3 with the 6th cell hidden
 or used for a legend.

@@ -2,7 +2,7 @@
 
 Two complementary tests:
 
-  (1) Longitudinal (all 71 QC-passed samples).
+  (1) Longitudinal (all 68 QC-passed samples).
         - Mann-Whitney U on per-patient mean intensities (one observation
           per patient, exact under the null, immune to within-patient
           repetition).
@@ -12,7 +12,7 @@ Two complementary tests:
         - Both q-values (Benjamini-Hochberg over the 449-protein pool)
           are written to Table S1.
 
-  (2) Visit-1 only (13 baseline samples).
+  (2) Visit-1 only (12 baseline samples).
         - Welch t-test on log2(intensity+1).
         - Mann-Whitney and a 10 000-iteration label-permutation test on
           log2 fold-change as robustness checks.

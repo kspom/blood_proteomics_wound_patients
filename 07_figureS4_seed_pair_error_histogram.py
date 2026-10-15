@@ -1,9 +1,9 @@
 """Figure S4 -- distribution of seed-pair classification errors.
 
 Histogram of LDA training error across all 100,576 protein pairs in the
-449-protein filtered pool. The vertical line at error = 7 marks the
-natural break used to define the 53 seed pairs (train_error <= 6) that
-enter the greedy-forward branching procedure.
+449-protein filtered pool. The vertical line marks the cutoff used to
+define the seed pairs (train_error <= 5) that enter the greedy-forward
+branching procedure.
 """
 
 from pathlib import Path

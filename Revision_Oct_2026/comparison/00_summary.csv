@@ -1,0 +1,8 @@
+quantity,previous,rerun,difference_between_runs
+"seed pairs (train error <= 5), Table S4",45,42,
+"unique panels, LOPPO search, Table S5",44,45,
+"zero-error panels, LOPPO search, Table S5",3,3,
+"unique panels, LOOCV search, Table S6",83,93,
+"zero-error panels, LOOCV search, Table S6",8,6,
+"identical panels in top-10 (same rank), Table 2",,,6 of 10
+"coefficient ratio rerun / previous, Table S7",,,1.0303-1.0303

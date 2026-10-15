@@ -1,0 +1,25 @@
+table,status
+table1_differentially_expressed_proteins.csv,identical
+table2_top10_panels_LOPPO.csv,different
+table3_panel_roster.csv,different
+table4_panel_cv_evaluation.csv,different
+table5_recurrent_proteins.csv,different
+tableS10_axis_only_one_core3_panels.csv,different
+tableS11_axis_zero_core3_panels.csv,different
+tableS12_clinical3_coefficients.csv,different
+tableS13_clinical3_cv_errors.csv,different
+tableS14_phs_contribution.csv,different
+tableS15_panel_protein_univariate_classification.csv,identical
+tableS16_lopo_protein_frequency.csv,different
+tableS17_lopo_robust_seed_pairs.csv,different
+tableS18_lopo_protein_hub_centrality.csv,"same content, different row order"
+tableS19_lopo_frequent_subsets.csv,different
+tableS1_de_longitudinal_all.csv,identical
+tableS20_lopo_baseline_predictions.csv,identical
+tableS2_de_baseline_all.csv,identical
+tableS4_all_branches_summary.csv,different
+tableS5_unique_sets_LOPPO.csv,different
+tableS6_unique_sets_LOOCV.csv,different
+tableS7_panel_coefficients_long.csv,different
+tableS8_protein_freq_seed_pairs.csv,different
+tableS9_protein_freq_top10_panels.csv,different

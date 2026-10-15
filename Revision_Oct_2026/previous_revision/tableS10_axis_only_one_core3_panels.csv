@@ -1,0 +1,11 @@
+Rank,Size,Proteins,Proteins with PHS sign,Train error,"CV error (LOPPO, /528)"
+1,4,ADIPOQ | FGB | IGHV3-64 | IGLV2-11,ADIPOQ(+) | FGB(-) | IGHV3-64(-) | IGLV2-11(-),0,0
+8,5,AZGP1 | CFB | F2 | IGHV3-74 | SERPINA7,AZGP1(+) | CFB(-) | F2(-) | IGHV3-74(-) | SERPINA7(+),0,6
+18,4,APMAP | CFB | CP | ICOSLG,APMAP(+) | CFB(-) | CP(+) | ICOSLG(+),1,13
+19,6,CFB | GSN | IGHG2 | IGHV1-8 | IGHV3-73 | SHBG,CFB(-) | GSN(+) | IGHG2(+) | IGHV1-8(-) | IGHV3-73(-) | SHBG(+),0,14
+21,3,CFB | CP | ICOSLG,CFB(-) | CP(+) | ICOSLG(+),1,17
+25,4,CFB | IGHV3-74 | OAF | SHBG,CFB(-) | IGHV3-74(-) | OAF(+) | SHBG(+),1,21
+26,4,CFB | COLEC10 | ICOSLG | MSLN,CFB(-) | COLEC10(+) | ICOSLG(+) | MSLN(-),1,22
+27,3,CDH5 | CFB | IGHV6-1,CDH5(+) | CFB(-) | IGHV6-1(-),2,22
+29,5,CD44 | CDH5 | CFB | IGHV6-1 | RNASE4,CD44(+) | CDH5(+) | CFB(-) | IGHV6-1(-) | RNASE4(-),0,23
+30,3,ABI3BP | CFB | IGHV4-34,ABI3BP(+) | CFB(-) | IGHV4-34(-),2,23

@@ -1,0 +1,3 @@
+protein,"log2 fold-change, longitudinal","log2 fold-change, visit-1 only","q-value, longitudinal","q-value, visit-1 only"
+CFB,-0.30,-0.32,0.0392,0.148
+COLEC10,+0.46,+0.74,0.0392,0.798

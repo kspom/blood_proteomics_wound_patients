@@ -1,0 +1,11 @@
+Rank,Size,Proteins,Proteins with PHS sign,Train error,"CV error (LOPPO, /528)"
+1,4,ADIPOQ | FGB | IGHV3-64 | IGLV2-11,ADIPOQ(+) | FGB(-) | IGHV3-64(-) | IGLV2-11(-),0,0
+22,3,CFB | CP | ICOSLG,CFB(-) | CP(+) | ICOSLG(+),1,17
+27,4,CFB | COLEC10 | ICOSLG | MSLN,CFB(-) | COLEC10(+) | ICOSLG(+) | MSLN(-),1,22
+28,3,CDH5 | CFB | IGHV6-1,CDH5(+) | CFB(-) | IGHV6-1(-),2,22
+29,5,CD44 | CDH5 | CFB | IGHV6-1 | RNASE4,CD44(+) | CDH5(+) | CFB(-) | IGHV6-1(-) | RNASE4(-),0,23
+30,4,CFB | ICOSLG | ITGB1 | TNXB,CFB(-) | ICOSLG(+) | ITGB1(+) | TNXB(+),2,24
+31,3,CFB | ITGB1 | QSOX1,CFB(-) | ITGB1(+) | QSOX1(+),2,27
+32,4,CFB | COLEC10 | F10 | IGHV4-4,CFB(-) | COLEC10(+) | F10(+) | IGHV4-4(+),1,28
+33,5,C7 | CFB | IGHV3-43 | IGLL5 | RPS6KA2,C7(+) | CFB(-) | IGHV3-43(-) | IGLL5(+) | RPS6KA2(-),1,29
+34,4,CFB | CP | ICOSLG | RPS6KA2,CFB(-) | CP(+) | ICOSLG(+) | RPS6KA2(-),1,30

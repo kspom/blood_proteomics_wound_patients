@@ -68,7 +68,7 @@ def main():
     print(f"  Proteins appearing in any LOPO panel: {len(all_proteins)}")
 
     tier1_rows = []
-    for p in all_proteins:
+    for p in sorted(all_proteins):
         n1 = n3 = n5 = nz = 0
         for pid in patients:
             run = unique[unique["excluded_patient"] == pid].sort_values("rank")
@@ -81,7 +81,8 @@ def main():
         tier1_rows.append({"protein": p, "n_rank1": n1, "n_top3": n3,
                            "n_top5": n5, "n_zero_CV": nz})
     tier1 = pd.DataFrame(tier1_rows).sort_values(
-        ["n_top3", "n_top5", "n_rank1"], ascending=False)
+        ["n_top3", "n_top5", "n_rank1", "protein"],
+        ascending=[False, False, False, True])
     tier1["robust"] = tier1["n_top3"] >= ROBUST_THRESHOLD
     tier1.to_csv(OUT / "tableS16_lopo_protein_frequency.csv", index=False)
     print(tier1.head(20).to_string(index=False))
@@ -138,8 +139,9 @@ def main():
                         seen_in_run.add(combo)
             for combo in seen_in_run:
                 subset_to_runs[combo].add(run_id)
+        # ties broken alphabetically so that the table is reproducible
         sorted_subsets = sorted(subset_to_runs.items(),
-                                key=lambda x: -len(x[1]))
+                                key=lambda x: (-len(x[1]), x[0]))
         for combo, run_set in sorted_subsets[:20]:
             subset_rows.append({
                 "size": k,

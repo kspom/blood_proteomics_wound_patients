@@ -1,0 +1,11 @@
+Protein,Appears in panel(s),log2 FC (longitudinal),q (longitudinal),log2 FC (visit-1),q (visit-1),Direction in PHS,Univariate signal classification
+CFB,"Complement-5, Core-3, Clinical-3",-0.30,0.0392,-0.32,0.148,-,DE-significant (univariate)
+SELL,Complement-5,+0.26,0.0523,+0.24,0.798,+,univariate near-miss (q<=0.10)
+ADIPOQ,Metabolic-4,+0.83,0.0687,+0.74,0.382,+,univariate near-miss (q<=0.10)
+PI16,"Complement-5, Core-3",+0.49,0.105,+0.72,0.566,+,univariate trend (q<=0.20)
+FGB,Metabolic-4,-0.53,0.154,-0.37,0.805,-,univariate trend (q<=0.20)
+F2,Clinical-3,-0.11,0.168,-0.04,0.805,-,univariate trend (q<=0.20)
+MINPP1,Complement-5,+0.18,0.336,+0.41,0.812,+,no univariate signal (multivariate-only contributor)
+TTR,Clinical-3,-0.04,0.851,+0.22,0.98,-,no univariate signal (multivariate-only contributor)
+IGLV2-11,Metabolic-4,+0.00,0.984,-0.36,0.812,-,no univariate signal (multivariate-only contributor)
+IGHV3-64,"Complement-5, Metabolic-4, Core-3",-0.10,1,+0.01,0.938,-,no univariate signal (multivariate-only contributor)

@@ -1,0 +1,11 @@
+Protein,Seed pairs (of 42),Top-10 panels (of 10),Direction in PHS,Sign derived from,"log2 fold-change, longitudinal","log2 fold-change, visit-1 only","q-value, longitudinal","q-value, visit-1 only"
+CFB,38,9,-,top-10 panels (n=9),-0.30,-0.32,0.0392,0.148
+IGHV3-64,1,9,-,top-10 panels (n=9),-0.10,+0.01,1,0.938
+PI16,1,9,+,top-10 panels (n=9),+0.49,+0.72,0.105,0.566
+LBP,0,3,+,top-10 panels (n=3),-0.11,-0.06,1,0.918
+ADAMTSL4,1,2,+,top-10 panels (n=2),+0.69,+0.87,0.168,0.929
+IGHV3-74,1,2,-,top-10 panels (n=2),-0.43,-0.11,0.21,0.98
+MINPP1,0,2,+,top-10 panels (n=2),+0.18,+0.41,0.336,0.812
+ADIPOQ,2,1,+,top-10 panels (n=1),+0.83,+0.74,0.0687,0.382
+CDH5,2,0,+,2-protein seed pairs (n=2),+0.42,+0.31,0.21,0.373
+CFHR3,2,0,-,2-protein seed pairs (n=2),-0.58,-0.49,0.225,0.664

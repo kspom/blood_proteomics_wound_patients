@@ -1,6 +1,6 @@
 """Tables S12, S13 -- Clinical-3 fitted coefficients and CV errors.
 
-Fits LDA on all 71 QC-passed samples for the Clinical-3 panel
+Fits LDA on all 68 QC-passed samples for the Clinical-3 panel
 (F2, CFB, TTR) and reports:
 
   S12: per-protein coefficient, sign, direction, plus the LDA intercept,
@@ -61,8 +61,8 @@ def main():
     schemes = {
         "baseline-LOOCV":      cv14.baseline_loocv(X, y, vis),
         "baseline-LOPPO":      cv14.baseline_loppo(X, y, g, vis),
-        "all-68-LOOCV":        cv14.all71_loocv(X, y),
-        "all-68-LOPPO":        cv14.all71_loppo(X, y, g),
+        "all-68-LOOCV":        cv14.all68_loocv(X, y),
+        "all-68-LOPPO":        cv14.all68_loppo(X, y, g),
         "LOPO":                cv14.lopo(X, y, g),
         "LOVO":                cv14.lovo(X, y, vis),
         "baseline->follow-up": cv14.baseline_to_followup(X, y, vis),

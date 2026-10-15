@@ -1,0 +1,4 @@
+Rank,Size,Proteins,Proteins with PHS sign,Train error,"CV error (LOPPO, /528)"
+42,4,CAMP | CDH5 | IGLV1-44 | LYVE1,CAMP(+) | CDH5(+) | IGLV1-44(-) | LYVE1(+),2,44
+43,3,CFHR3 | KIAA1958 | PTGDS,CFHR3(-) | KIAA1958(+) | PTGDS(+),2,50
+44,5,CFHR3 | IGKJ1 | IGKV1-37;IGKV1D-37 | KIAA1958 | VASN,CFHR3(-) | IGKJ1(-) | IGKV1-37;IGKV1D-37(+) | KIAA1958(+) | VASN(+),2,52

@@ -23,11 +23,15 @@ Thumbs.db
 # output/
 # figures/
 
-# --- private working notes (never push to GitHub) ---
-CHANGES_AFTER_EXCLUSION.md
-dataset/ClassLabel_original.csv
+# --- input data (not shared publicly; see DATA.md) ---
+dataset/
 
 # --- macOS / Windows junk ---
 ._*
 .Spotlight-V100
 .Trashes
+
+# --- generated outputs and run logs ---
+/output*/
+/figures*/
+*_log.txt

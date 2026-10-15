@@ -2,7 +2,7 @@
 
 Six panels: one boxplot per protein in the Complement-5 panel
 (CFB, F9, IGHV3-64, MINPP1, PI16) plus the combined Protein Healing
-Score from a 5-protein LDA fit on all 71 samples. Healers and non-
+Score from a 5-protein LDA fit on all 68 samples. Healers and non-
 healers are shown side-by-side with jittered dots. The PHS panel makes
 the discriminative gain over single proteins visible at a glance.
 """
